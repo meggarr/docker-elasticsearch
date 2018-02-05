@@ -29,6 +29,8 @@ http:
 
 discovery:
   zen:
+    ping.unicast.hosts: ${DISCOVERY_HOSTS}
     minimum_master_nodes: ${NUMBER_OF_MASTERS}
 
 xpack.ml.enabled: false
+reindex.remote.whitelist: "*:9200"
