@@ -1,5 +1,5 @@
 # Build Docker image
-docker build -t docker.calix.local:18080/docker-elasticsearch:6.2.2-calix .
+docker build -t docker.calix.local:18080/docker-elasticsearch:6.5.4-calix .
 
 # Change vm max count
 sysctl -w vm.max_map_count=262144
